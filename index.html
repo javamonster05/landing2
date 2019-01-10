@@ -15,110 +15,132 @@
 <body>
     <div class="back-image"></div>
     <!-- Nav -->
-    <div>
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Illdy</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#how" class="nav-link">How it works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#benefits" class="nav-link">Benefits</a>
-                        </li>
-                        <li class="cta nav-item active">
-                            <a href="#tryUs" class="nav-link">Try us</a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="container-fluid header-menu">
+        <div class="row">
+            <div class="container w20">
+                <a href="#">
+                    <span class="text-white"><img src="img/logo-r.png" id="logotype"></span>
+                </a>
             </div>
-        </nav>
-        <!-- top-text Image Form-->
-        <div class="container-fluid">
-            <h1 class="text-center animated zoomIn" style="font-size: 3.5rem;">Get your moving orders in one click!</h1>
-            <img src="img/pic1_obr.JPG" class="img-fluid d-block mx-auto pic2" alt="pic2">
-            <p class="text-center" style="font-size: 1.8rem;">Every customer on the page will become potential and get back to you with more orders.</p>
-            <!-- <div class="text-center">
-                <button type="button" class="btn btn-outline-dark find-out-more">Find out More!</button>
-            </div> -->
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-9 col-xl-8">
-                    <div class="main-form">
-                        <h3 class="text-center form-inscript">Simply fill the form</h3>
-                        <form class="needs-validation" action="#" method="POST" novalidate>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter your name..." required>
-                                    <div class="invalid-feedback">
-                                            Please provide your name.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your website..." required>
-                                    <div class="invalid-feedback">
-                                            Please provide your website.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Phone or Email..." required>
-                                    <div class="invalid-feedback">
-                                            Please provide your phone or email.
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-outline-dark w100">Try us</button>
-                            </form>
+            <div class="container header-nav">
+                <ul class="nav justify-content-end no-wrap align-middle">
+                    <li class="li-style">
+                        <a class="nav-link text-green no-padding appear-desktop" id="call" href="#">
+                            Call us
+                        </a>
+                    </li>
+                    <!-- <li class="li-style"><a class="nav-link text-green no-padding appear-desktop" href="#">(213) 888-88-88</a></li> -->
+                    <li class="li-style"><a class="nav-link text-green no-padding appear-desktop" href="#how">We offer</a></li>
+                    <li class="li-style"><a class="nav-link text-green no-padding appear-desktop" href="#benefits">Advantages</a></li>
+                    <!-- <li class="li-style"><a class="nav-link text-green no-padding try-cta" href="#try">Try</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- top-text Image Form-->
+    <div class="container-fluid">
+        <!-- Call us 1 -->
+        <div class="row">
+            <div class="col-12 col-md-9 col-xl-8">
+                <div class="call-us-long" id="call-top">
+                    <div class="d-flex justify-content-center call-us">
+                        <button type="button" class="btn btn-success w100">Call us</button>
                     </div>
                 </div>
             </div>
         </div>
+        <h1 class="text-center" style="font-size: 2rem; margin: 20px 0;">Get your moving orders in one click!</h1>
+        <img src="img/pic1.jpg" class="img-fluid d-block mx-auto pic2" alt="pic2">
+        <h1 class="text-center mt30" style="font-size: 1.2rem; margin-bottom: 0">Every customer on the page will become
+            potential and get back to you with more orders.</h1>
+        <!-- <div class="text-center">
+                <button type="button" class="btn btn-outline-dark find-out-more">Find out More!</button>
+            </div> -->
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-9 col-xl-8">
+                <div class="main-form">
+                    <h3 class="text-center form-inscript">Simply fill the form</h3>
+                    <form class="needs-validation" action="#" method="POST" novalidate>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name..." required>
+                            <div class="invalid-feedback">
+                                Please provide your name.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your website..." required>
+                            <div class="invalid-feedback">
+                                Please provide your website.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Phone or Email..." required>
+                            <div class="invalid-feedback">
+                                Please provide your phone or email.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success w100">Get customers</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <!-- how it works -->
-        <div class="container-fluid">
-            <div class="how-works">
-                <div class="centered-back-image">
-                    <img src="img/stick.png" class="stick" alt="">
-                </div>
-                <h1 class="text-center text-uppercase" id="how">What we offer</h1>
-                <div class="row justify-content-start w52">
-                    <div class="col">
-                        <div style="text-align:center;">
-                            <img src="img/registrForm.png" class="img-fluid" alt="">
-                            <p>You register in the lead generation system.</p>
-                        </div>
+    <!-- how it works -->
+    <div class="container-fluid">
+        <div class="how-works">
+            <div class="centered-back-image">
+                <img src="img/stick.png" class="stick" alt="">
+            </div>
+            <h1 class="text-center text-uppercase" id="how">What we offer</h1>
+            <div class="row justify-content-start w52">
+                <div class="col">
+                    <div style="text-align:center;">
+                        <img src="img/registrForm.png" class="img-fluid" alt="">
+                        <p>You register in the lead generation system.</p>
                     </div>
                 </div>
-                <div class="row justify-content-end w46-left55-top210">
-                    <div class="col">
-                        <div style="text-align:center;">
-                            <img src="img/noOrders.png" class="img-fluid" alt="">
-                            <p>Whenever you need new orders, just replenish the advertizing budget at (approximately) 20 dollars per 1 order. </p>
-                        </div>
+            </div>
+            <div class="row justify-content-end w46-left55-top210">
+                <div class="col">
+                    <div style="text-align:center;">
+                        <img src="img/noOrders.png" class="img-fluid" alt="">
+                        <p>Whenever you need new orders, just replenish the advertizing budget at (approximately) 20
+                            dollars per 1 order. </p>
                     </div>
                 </div>
-                <div class="row justify-content-end w52-top485">
-                    <div class="col">
-                        <div style="text-align:center;">
-                            <img src="img/getAppFast.png" class="img-fluid" alt="">
-                            <p>Wait for new orders within 24 hours!</p>
-                        </div>
+            </div>
+            <div class="row justify-content-end w52-top485">
+                <div class="col">
+                    <div style="text-align:center;">
+                        <img src="img/getAppFast.png" class="img-fluid" alt="">
+                        <p>Wait for new orders within 24 hours!</p>
                     </div>
                 </div>
-                <div class="row justify-content-end w46-left55-top630">
-                    <div class="col">
-                        <div style="text-align:center;">
-                            <img src="img/howMuchPay.png" class="img-fluid" alt="">
-                            <p>Our commission fee is just 10% from the cost of one order and don’t miss a BONUS to pay only from the second month. </p>
-                        </div>
+            </div>
+            <div class="row justify-content-end w46-left55-top630">
+                <div class="col">
+                    <div style="text-align:center;">
+                        <img src="img/howMuchPay.png" class="img-fluid" alt="">
+                        <p>Our commission fee is just 10% from the cost of one order and don’t miss a BONUS to pay only
+                            from the second month. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call us 2 -->
+        <div class="row">
+            <div class="col-12 col-md-9 col-xl-8">
+                <div class="call-us-long">
+                    <div class="d-flex justify-content-center call-us">
+                        <button type="button" class="btn btn-success w100">Call us</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--Nav Stops Here-->
+
 
     <!-- Our benefits -->
     <div class="container-fluid">
@@ -147,7 +169,7 @@
     </div>
     <!-- Try us -->
     <div class="container-fluid">
-        <h3 class="text-center form-inscript benefits nombot">Are you ready to try? </h3>
+        <h3 class="text-center form-inscript benefits nombot" id="try">Are you ready to try? </h3>
         <div class="row justify-content-center">
             <div class="col-12 col-md-9 col-xl-8">
                 <div class="main-form">
@@ -156,22 +178,22 @@
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Enter your name..." required>
                             <div class="invalid-feedback">
-                                    Please provide your name.
+                                Please provide your name.
                             </div>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Your website..." required>
                             <div class="invalid-feedback">
-                                    Please provide your website.
+                                Please provide your website.
                             </div>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Phone or Email..." required>
                             <div class="invalid-feedback">
-                                    Please provide your phone or email.
+                                Please provide your phone or email.
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-outline-dark w100">Try us</button>
+                        <button type="submit" class="btn btn-success w100">Try us</button>
                     </form>
                 </div>
             </div>
@@ -195,6 +217,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="mq.js"></script>
 </body>
 
 </html>
